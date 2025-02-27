@@ -1,0 +1,3 @@
+requests
+scrapetube
+yt_dlp
