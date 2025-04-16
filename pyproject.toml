@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "youtube-videos-downloader"
+version = "0.1.0"
+description = ""
+authors = ["TheWiner1 <anoh.erwin05@gmail.com>"]
+readme = "README.md"
+packages = [{include = "youtube_videos_downloader"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.32.3"
+scrapetube = "^2.5.1"
+yt-dlp = "^2025.3.31"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

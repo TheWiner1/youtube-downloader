@@ -14,11 +14,12 @@ This project allows you to download videos from a YouTube channel using `yt_dlp`
 git clone https://github.com/TheWiner1/youtube-downloader
 cd youtube-downloader
 
-# Create a virtual environment
-python -m venv env
-source env/bin/activate  # On Windows use: env\Scripts\activate
+# install dependencies with poetry
+poetry install
 
-# Install dependencies
+# Or with pip using a virtual environment
+python -m venv env
+source env/bin/activate  # On Windows use: env\Scripts\activat
 pip install -r requirements.txt
 ```
 
